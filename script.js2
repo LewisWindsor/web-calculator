@@ -1,0 +1,14 @@
+
+function getAnswer () {
+    var paramOne = Number(document.getElementById('paramOne').value)
+    var paramTwo = Number(document.getElementById('paramTwo').value)
+    
+    // var result = paramOne + paramTwo
+
+    // var finalAnswerDiv = document.getElementById('finalAnswer')
+
+    // finalAnswerDiv.innerHTML = result
+
+    document.getElementById('finalAnswer').innerHTML = paramOne + paramTwo
+
+} 
